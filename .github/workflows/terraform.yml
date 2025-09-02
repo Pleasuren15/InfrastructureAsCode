@@ -30,3 +30,8 @@ jobs:
         uses: hashicorp/setup-terraform@v3
         with:
           terraform_version: 1.8.5 # pick your version
+
+      # 4. Terraform Init
+      - name: Terraform Init
+        run: terraform init
+        working-directory: ./terraform   # 👈 point to folder with main.tf
