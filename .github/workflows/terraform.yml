@@ -34,4 +34,4 @@ jobs:
       # 4. Terraform Init
       - name: Terraform Init
         run: terraform init
-        working-directory: ./terraform   # 👈 point to folder with main.tf
+        working-directory: .terraform   # 👈 point to folder with main.tf
