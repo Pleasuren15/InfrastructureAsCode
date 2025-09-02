@@ -40,3 +40,8 @@ jobs:
       - name: Terraform Validate
         run: terraform validate
         working-directory: .terraform   # 👈 point to folder with main.tf
+
+      # 6. Terraform Plan
+      - name: Terraform Plan
+        run: terraform plan -out=tfplan
+        working-directory: .terraform   # 👈 point to folder with main.tf
