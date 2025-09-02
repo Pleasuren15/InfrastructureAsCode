@@ -35,3 +35,8 @@ jobs:
       - name: Terraform Init
         run: terraform init
         working-directory: .terraform   # 👈 point to folder with main.tf
+
+      # 5. Terraform Validate
+      - name: Terraform Validate
+        run: terraform validate
+        working-directory: .terraform   # 👈 point to folder with main.tf
