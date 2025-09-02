@@ -1,0 +1,1 @@
+azure_subscription_id = "19f5f2db-d64b-4093-85d6-24d70433421b"
